@@ -37,28 +37,22 @@ It highlights skills in **system administration** and **SOC engineering** by foc
 
 ## 🔐 Security Hardening Steps
 
-### 1. System Hardening
+### [1. System Hardening](/system-hardening/README.md)  
 
-See details in [system-hardening/README.md](/system-hardening/README.md)  
-Includes:
 - Disable root login over SSH  
 - Enforce SSH key authentication + Fail2Ban  
 - Configure firewall (UFW/iptables)  
 - Apply automatic updates & patches  
 - Remove unnecessary services and packages  
 
-### 2. User & Access Management
+###  [2. User & Access Management](/user-access-management/README.md) 
 
-See details in [user-access-management/README.md](/user-access-management/README.md)  
-Includes:
 - Create admin user with sudo privileges  
 - Enforce password policies (PAM)  
 - Implement least privilege access (RBAC)  
 
-### 3. Endpoint Protection Tools
+### [3. Endpoint Protection Tools](/endpoint-protection/README.md)
 
-See details in [endpoint-protection/README.md](/endpoint-protection/README.md)  
-Includes:
 - **Audit & Monitoring:**  
     - Auditd (system activity logging)  
     - Syslog centralized logging  
@@ -68,9 +62,7 @@ Includes:
 - **Intrusion Detection:**  
     - Wazuh agent (or OSSEC agent) installed on VM  
 
-### 4. Network Security
+### [4. Network Security](/network-security/README.md)
 
-See details in [network-security/README.md](/network-security/README.md)  
-Includes:
 - IDS with Suricata (local rules for endpoint traffic monitoring)  
 - Port scan detection (psad)
