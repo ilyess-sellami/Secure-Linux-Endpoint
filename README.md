@@ -1,7 +1,7 @@
 # Secure Linux Endpoint
 **Harden and monitor Linux endpoints 🐧 💻**
 
-![Linux Security](Secure-Linux-Endpoint.png)
+![](Banner-Image.png)
 
 ---
 
